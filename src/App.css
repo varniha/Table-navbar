@@ -1,0 +1,26 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 90%;
+  width: 100%;
+}
+
+.App .clg{
+  flex-grow: 2;
+  width: 60%;
+  justify-self: center;
+}
+
+.App .loginform{
+  width: 40%;
+  flex-grow: 1;
+  justify-self: center;
+}
+
+img{
+  width: 70%;
+  height: 60%;
+  margin-left: 4rem;
+}

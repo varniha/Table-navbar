@@ -1,0 +1,101 @@
+.hero1{
+    margin-top: 2rem;
+    padding: .5rem 1rem .5rem 0rem;
+    color: var(--a-violet);
+}
+
+.hero2{
+    font-size: x-large;
+    padding-right: 1rem;
+}
+
+.hero3{
+    margin-top: .5rem;
+    color:var(--a-gray);
+    font-size: medium;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding: .25rem 1rem 1rem 0rem;
+}
+
+.inputbox{
+    margin: 1.5rem 1.5rem 2rem 0;
+    padding: 1rem;
+    width: 85%;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: var(--a-lightgray) 0px 8px 24px;
+}
+
+.userinput label{
+    color: var(--violet);
+    font-weight: 500;
+    text-shadow: 1px 1px var(--a-lightgray);
+    
+}
+
+.userinput input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--a-gray);
+    height: 2.5rem;
+    font-size: large;
+}
+
+.inputbox .forget{
+    margin-top: .75rem;
+    text-align: right;
+}
+
+.forget a{
+    color: var(--a-black);
+    font-size: small;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.forget a:hover{
+    color: var(--a-violet);
+}
+
+.submit-btn{
+    width: 80%;
+    margin: .5rem 0 .5rem 1rem;
+    padding: 1rem 2rem;
+    border: 1px solid var(--a-white);
+    font-size: large;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: var(--a-violet);
+    color:var(--white);
+}
+
+.submit-btn:hover{
+    color: var(--a-violet);
+    background-color: var(--a-white);
+    border: 1px solid var(--a-violet);
+}
+
+.register{
+    margin-top: 1rem;
+    width: 85%;
+    text-align: center;
+}
+
+.register a{
+    color: var(--a-black);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.register a:hover{
+    color: var(--a-violet);
+}

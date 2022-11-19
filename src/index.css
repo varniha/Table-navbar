@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+html,body,#root{
+  height: 100%;
+}
+
+:root{
+
+  /* Color palatte for react admin page */
+  --a-violet: rgb(104, 46, 135);
+  --a-gray: rgb(169,169,169);
+  --a-black: rgba(0,0,0,0.9);
+  --a-lightgray: rgba(137, 148, 153,0.2);
+  --a-white: rgb(255,255,255);
+
+  /* Color palatte for react manage page */
+  --m-darkblue: #4d47b2;
+  --m-lightblue: #8a86e2;
+  --m-lace: #ffe0f4;
+  --m-black: #32313a;
+  --m-white: #fcfeff;
+}

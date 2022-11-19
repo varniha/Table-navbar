@@ -1,0 +1,125 @@
+.filter-btn{
+    width: 30%;
+    margin: 1rem 3rem;
+}
+
+label{
+    font-weight: 600;
+}
+
+button{
+    font-size: 1rem;
+    border-radius: .5rem;
+    padding: .5rem 0;
+    background-color: var(--m-lightblue);
+    border: 2px solid var(--m-white);
+
+}
+button span{
+    margin: 0 .5rem;
+    color: var(--m-white);
+}
+button i{
+    padding-left: .5rem;
+    margin-right: .3rem;
+    color: var(--m-white);
+}
+
+button:hover{
+    border: 2px solid var(--m-lightblue);
+}
+
+button:hover, button:hover span,button:hover i{
+    cursor: pointer;
+    background-color:var(--m-white);
+    color: var(--m-lightblue);
+}
+
+button:focus{
+    outline: none;
+}
+
+#form{
+    width: 80%;
+    margin: 0 auto 1rem;
+    font-size: 1.1rem;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type='text']{
+    margin-left: 1rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--m-lightblue);
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.inputgrp{
+    position: relative;
+    padding: .5rem;
+}
+
+.inputgrp label{
+    position:absolute;
+    font-size: 1rem;
+    transform-origin: top left;
+    transform: translate(0, 1rem) scale(1);
+    transition: all .1s ease-in;
+}
+
+.inputgrp input{
+    margin: 1rem 0 .5rem;
+}
+
+.inputgrp:focus-within label{
+    transform: translate(0,.4rem) scale(.75);
+    color: var(--m-lightblue);
+}
+
+.late{
+    padding-top: .5rem;
+}
+
+.late label,.date label,.daterange label{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: block;
+    text-indent: -1rem;
+}
+
+.late input,.date input,.daterange input{
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    left: -.4rem;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.date-1{
+    margin-top: 1rem;
+}
+
+.date-1 input,.date-2 input{
+    width: 50%;
+}
+
+.date-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+

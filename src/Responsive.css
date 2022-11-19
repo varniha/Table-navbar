@@ -1,0 +1,48 @@
+@media only screen and (max-width: 480px){
+    .App .clg{
+      display: none;
+    }
+
+    .hero1,.hero2,.hero3{
+        margin-left: 1rem;
+    }
+
+    .hero1{
+        font-size: xx-large;
+    }
+
+    .hero2{
+        font-size: x-large;
+    }
+
+    .hero3{
+        font-size: large;
+    }
+    
+    .inputbox{
+        width: 90%;
+        margin:2rem auto;
+    }
+
+    .submit-btn{
+        width:80%;
+        margin:1rem 2rem;
+    }
+
+    .register{
+        width: 100%;
+        text-align: center;
+    }
+  }
+
+@media only screen and (max-width:768px){
+    .App .clg{
+        flex-grow: 1;
+        width: 55%;
+    }
+
+    .App .loginform{
+        flex-grow: 1;
+        width: 45%;
+    }
+}
