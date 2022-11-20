@@ -32,7 +32,7 @@ const Sidebar = ({ children }) => {
     ]
     return (
         <div className='nav'>
-            <div style={{ width: isOpen ? "280px" : "60px" }} className="sidebar">
+            <div style={{ width: isOpen ? "280px" : "" }} className="sidebar">
                 <div className='header_section'>
                    
                 </div>
@@ -51,7 +51,7 @@ const Sidebar = ({ children }) => {
                     ))
                 }
             </div>
-            <main>{children}</main>
+            {children}
         </div>
     );
 };

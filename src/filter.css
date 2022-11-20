@@ -109,17 +109,31 @@ input[type='text']{
     align-items: center;
 }
 
-.date-1{
+.date-1,.date-2{
     margin-top: 1rem;
+    margin-left: 2rem;
 }
 
 .date-1 input,.date-2 input{
     width: 50%;
 }
-
-.date-2{
+.date,.daterange{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 1rem;
+    flex-direction: row;
 }
 
+@media screen and (max-width:940px) {
+    #form{
+        width: 90%;
+    }
+    .row-1,.row-2{
+        flex-direction: column;
+    }
+    .row-2{
+        align-items: flex-start;
+    }
+
+    .date-1,.date-2{
+        margin-left: 1rem;
+    }
+}

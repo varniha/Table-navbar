@@ -2,7 +2,7 @@ import React from 'react';
 
 const Logout = () => {
     return (
-        <div>
+        <div style={{width:"100%"}}>
             <h1>Logged out
             </h1>
         </div>

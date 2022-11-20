@@ -1,23 +1,22 @@
 *{
-    margin:0;
-    padding:0;
     text-decoration: none;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nav{
     display:flex;
+    height: 100%;
 }
 .header{
     background-color:white;
 }
 main{
     width: 100%;
-    padding: 20px;
+
 }
 .sidebar{
     background: var(--m-lightblue);
     color: #fff;
-    height: 100vh;
+    /* height: 100vh; */
     width: 60px;
     transition: all 0.5s;
 }
@@ -58,10 +57,11 @@ main{
 @media only screen and (max-width:940px){
     .nav{
         flex-direction: column;
+        width: 100%;
     }
     .sidebar{
         width: 100%;
-        height: 5%;
+        height: 10%;
         display: flex;
     }
 
